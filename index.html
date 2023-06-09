@@ -4,96 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- css hrf='style css'..... -->
-    <!-- 
-        h1{}
-        selectors: div{
-            font-size:32px;
-            color:green;
-        }
-        img{
-            /* comment */
-        }
-        classes
-
-        IDS
-
-        Apply css to a certain html tag, one specific element, a class of elements, 
-     -->
+    <link rel="stylesheet" href="file:///Users/changlongwu/Desktop/html/Project%231/style.css">
+    <title>Changlong's Personal Website!</title>
 </head>
 <body>
-    <h1>Header 1</h1>
-    <h2>Header 2</h2>
-    <h3>Header 3</h3>
+    <h1>Changlong's Personal Website</h1>
 
-    <br>
-    <hr>
+    <div class="nav">
+        <div class="nav-button"><a href="#target-about">About</a></div>
+        <div class="nav-button"><a href="#target-work">Work</a></div>
+        <div class="nav-button"><a href="">Contact</a></div>
+    </div>
 
-    <ul>
-        <li>PHO</li>
-        <li>Grape</li>
-    </ul>
+    <div class="separator"></div>
 
-    <ol>
-        <li>CS61B</li>
-        <li>CS70</li>
-    </ol>
-    <!-- comment: command+/ -->
+    <div class="section">
+        <a name = 'target-about'></a>
 
-    <br>
-    <hr>
-    <!-- url -->
-    <a href="https://fullstackdecal.com/docs/Lessons/Lesson2" target="_blank">Join WDB</a>
+        <div class="smaller-section">
+            <img id=imageofme src="my_image.png" alt="">
+        </div>
 
-    <!-- button -->
-    <button>See the WDB Website</button>
-    <a href="https://fullstackdecal.com/docs/Lessons/Lesson2" target="_blank"><button>See the WDB Website</button></a>
+        <div class="smaller-section">
+            <h2>Hi! I am Changlong Wu. I am a junior at UC Berkeley studying CS!</h2>
+            <p>I am currently enrolled in CS198: Introduction to full stack web development! 
+                This is how I am able to build what you are reading!</p>
+        </div>
 
-    <br>
-    <hr> 
-    <input type="text" placeholder="Name">
-    <input type="radio">
-    <input type="checkbox" >
-    <input type="color" >
 
-    <br>
-    <hr>
-    <form>
-        <input type ='ext' placeholder="Email address">
-        <br>
-        <br>
-        <input type = 'password' placeholder="Passwoed">
-        <br>
-        <br>
-        <input type = "submit" value = 'Submit'>
-    </form>
 
-    <br>
-    <hr> 
-    <img src="https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png"  alt="apple">
+        <div class="smaller-section">
+            <h2>All About Me</h2>
 
-    
-</body>
-</html>
+            <p>I grew up in China. I moved to the USA for college as I hope it will enable me to widen my career opportunities for the future. My dream path would be to land a Software Engineering job position after graduation then dive into the world of VC and start-ups.
+            <a href="https://www.linkedin.com/in/changlong-wu-a79156256/">
+                <button>
+                    <p>Contact Me on LinkdIn!</p>
+                </button>
+            </a>
+        </div>
+    </div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <div class="separator"></div>
 
-    <style>
-        .paraOne{
-            color:red;
-            font-weight: bold;
-        }
-    </style>    
-</head>
-<body>
-    <p class="paraOne"> happy</p>
-    
+    <div class="section">
+        <a name="target-work"></a>
+        <div class="smaller-section">
+            <h2>Work and Project Experience!</h2>
+        </div>
+
+        <div class="smaller-section">
+            <h2>Personal Project:</h2>
+            <p>One personal project I am proud of is my Text-based Smart Virtual Assistant. Here are key information about it:</p>
+            
+            <ul>
+                <li>Engineered a machine learning matching algorithm from concept to product to understand the user's input through the identification of keywords recorded in a changing data file (initially containing 300 keywords)</li>
+                <li>Formulated text-processing functions to optimize the efficiency of the program</li>
+                <li>Devised a friendly user interface and experience using tkinter and Adobe Photoshop</li>
+            </ul>            
+        </div>
+        
+        <div class="smaller-section">
+            <h2>Class Project:</h2>
+            <p>One personal project I am proud of is the Scheme Interpreter in CS61A. Here are key information about it:</p>
+            <ul>
+                <li>Implemented the entire REPL components of the interpreter from the parser of the user's input (lexical and syntactic analysis) to the recursive eval-apply cycle (core functionality + user-defined procedures supported)</li>
+                <li>Engineered a more comprehensive exception handling program for the interpreter to optimize newer developers' experiences in catching, understanding, and correcting their mistakes</li>
+            </ul>           
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="section">
+        <a name="target-contact"></a>
+        <div class="smaller-section">
+            <h2>Contact</h2>
+        </div>
+        <div class="smaller-section">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Phone Number: +1 341 688 9631</li>
+                <li>Professional Email: changlong_wu@berkley.edu</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/changlong-wu-a79156256/">Click here for my LinkedIn profile</a></li>
+            </ul>
+        </div>
+        <div class="smaller-section">
+            <h2>Fun Contact Information:</h2>
+            <ul>
+                <li>Instagram: <a href="https://www.instagram.com/kamalnahas/">Click Here for my Instagram Profile!</a></li>
+                <li>Personal Email: kamal.nahas@icloud.com</li>
+                <li>Extra Surpise: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click Here for a surprise</a></li>
+            </ul>
+        </div>        
+    </div>
+
+    <div class="separator"></div>
 </body>
 </html>
